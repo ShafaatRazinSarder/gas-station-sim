@@ -93,6 +93,9 @@ public class Sim {
             if (currentEvent instanceof EndOfSimulation)    // if that was the stop
                 break;                                      // exit the loop
         }
+		
+		system.our.prinl("End of program!");
+		
     }
 
     // ===== Statistics =====
