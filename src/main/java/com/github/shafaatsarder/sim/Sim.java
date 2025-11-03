@@ -94,7 +94,7 @@ public class Sim {
                 break;                                      // exit the loop
         }
 		
-		system.our.prinl("End of program!");
+		System.out.println("End of program!");
 		
     }
 
